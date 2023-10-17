@@ -52,7 +52,17 @@ Jobify provides several benefits to both job seekers and recruiters, making job 
 
 ## File Structure
 
-The project follows a well-organized file structure to maintain clarity and modularity. (File structure details here...)
+The project follows a well-organized file structure to maintain clarity and modularity.
+
+- **client/**: React front-end application (source in `src/`, static assets in `public/`).
+- **controllers/**: Controllers for authentication, job, and user functionality.
+- **errors/**: Custom error handling utilities.
+- **middleware/**: Express.js middleware for authentication, error handling, and validation.
+- **models/**: Mongoose models for the database.
+- **routes/**: Express.js routes for different functionalities.
+- **utils/**: Utility files for constants, mock data, password, and token handling.
+- **populate.js**: Script to populate the database.
+- **server.js**: Entry point for the server application.
 
 ## Getting Started
 
